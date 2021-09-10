@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: black;
+  color: white;
 }
 
 .header {
@@ -39,21 +40,12 @@ body {
 }
 
 a {
-  color: #75dcff;
+  color: aqua;
   text-decoration: none;
 }
 
 p {
   font-size: 16px;
-}
-
-.hero {
-  height: 400px;
-  width: auto;
-  margin-bottom: 25px;
-  background-image: url("./images/group_show_pic.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .about-me {
@@ -67,33 +59,6 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 .footer {
@@ -133,6 +98,7 @@ p {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+  color: white;
 }
 
 section {
@@ -141,7 +107,7 @@ section {
 }
 aside {
   flex: 1;
-  color: navy;
+  color: aqua;
   padding: 80px;
   text-align: end;
   font-size: 30px;
@@ -150,7 +116,7 @@ aside {
 .aside:after {
   content: "";
   position: absolute;
-  background: navy;
+  background: aqua;
   width: 1px;
 
   transform: translateY(-50%);
@@ -162,7 +128,7 @@ aside {
   height: 250px;
   flex-wrap: nowrap;
   align-items: flex-start;
-  border-left: navy;
+  border-left: aqua;
 }
 
 .work {
@@ -177,7 +143,7 @@ aside {
   display: inline-flex;
   flex-direction: row;
   height: 250px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
@@ -186,7 +152,7 @@ aside {
 }
 
 .projects {
-  width: 75%;
+  width: 100%;
   display: flex;
   margin-left: 20px;
   flex-direction: row;
@@ -196,11 +162,12 @@ aside {
   padding: 2%;
   flex-grow: 1;
   flex-basis: 16%;
+  flex-direction: row;
 }
 
 .project-image img {
-  max-width: 500px;
-  max-height: 250px;
+  max-width: 300px;
+  max-height: 150px;
 }
 
 .projects-image:hover {
@@ -218,7 +185,7 @@ aside {
 .flex-container {
   display: flex;
   align-items: flex-start;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   height: 250px;
   flex-direction: row;
   overflow: hidden;
