@@ -2,8 +2,7 @@
 
 By Sareybodd Chhorn
 
-An "employee portfolio" attempt but more of an expression of the individual, Rey Chhorn, who is a DJ and
-Coding Bootcamp Student part-time.
+An "employee portfolio" attempt but more of an expression of the individual, Rey Chhorn, a struggling part-time full-stack developer student!
 
 ### Technologies used
 
@@ -24,8 +23,8 @@ Coding Bootcamp Student part-time.
 
 This website represents my current skills with HTML (divs, sections, classes, etc) and CSS (flex box).
 This employee portfolio has minimal content as it is my first attempt (will be updated and evolved over time) as
-I am still catching up with 16 other assignments for this bootcamp at the moment (August 25, 2021). The images
-illustrate my main gigs as DJ, to represent who I am and what I love to do, whereas the content in text and in flex boxes below the images are expressing myself as a bootcamp student!
+Have just a few more assignments to turn in!
+Images are screenshots of the past 4 assignments before this one!
 
 My motivation for this project was to have a simple page to express / represent myself both as a DJ and coding bootcamp student.
 
@@ -35,9 +34,9 @@ The problem that this project solves is me now no longer portfolio-less, I at le
 
 I learned how to hyperlink images, style cool hover effects, mess with flexbox, and make a nav bar at the top of the page!
 
-## Repo Link
+## Page Link
 
-https://github.com/LYBLRey/employeePortfolio
+https://lyblrey.github.io/UpdatedPortfolio1/
 
 ## Usage
 
